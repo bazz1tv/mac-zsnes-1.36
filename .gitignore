@@ -1,2 +1,7 @@
 *.o
+*.smc
+*.srm
+*.zst
 zsnes
+zguicfgl.dat
+zsnesl.cfg
