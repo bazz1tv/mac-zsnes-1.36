@@ -5,3 +5,6 @@
 zsnes
 zguicfgl.dat
 zsnesl.cfg
+*.sublime-workspace
+.DS_Store
+untitled.sublime-workspace

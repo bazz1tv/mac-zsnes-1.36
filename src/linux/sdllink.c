@@ -298,7 +298,7 @@ int Main_Proc(void)
 				// to ZSnes scancode LUT
 				/*if (event.key.keysym.scancode - 8 >= 0)
 				{*/
-					printf ("scancode = 0x%04x\n", event.key.keysym.scancode);
+					//printf ("scancode = 0x%04x\n", event.key.keysym.scancode);
 					//if (pressed[event.key.keysym.scancode - 8] != 2)
 				if (event.key.keysym.sym == SDLK_LSHIFT)
 					pressed[0x2a]=1;
