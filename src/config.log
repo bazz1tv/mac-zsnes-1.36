@@ -1,0 +1,56 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:544: checking for gcc
+configure:657: checking whether the C compiler (gcc -pipe -I. -Wall -L/usr/local/lib) works
+configure:673: gcc -o conftest -pipe -I. -Wall -arch i386 -L/usr/local/lib conftest.c  1>&5
+configure:670:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^~~~
+1 warning generated.
+configure:699: checking whether the C compiler (gcc -pipe -I. -Wall -L/usr/local/lib) is a cross-compiler
+configure:704: checking whether we are using GNU C
+configure:732: checking whether gcc accepts -g
+configure:766: checking for nasm
+configure:831: checking for a BSD compatible install
+configure:911: checking host system type
+configure:932: checking target system type
+configure:950: checking build system type
+configure:997: checking how to run the C preprocessor
+configure:1081: checking for X
+configure:1357: checking for sdl-config
+configure:1392: checking for SDL - version >= 1.2.0
+configure:1563: checking for zlib
+configure:1577: gcc -c -pipe -I. -Wall -D__LINUX__ -D__FreeBSD__ -INONE -I/usr/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE -arch i386 conftest.c 1>&5
+configure:1603: checking for OpenGL support
+configure:1646: checking for libPNG support
+configure:1661: gcc -c -pipe -I. -Wall -D__LINUX__ -D__FreeBSD__ -INONE -I/usr/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE -arch i386 conftest.c 1>&5
+configure:1652:11: fatal error: 'png.h' file not found
+        #include <png.h>
+                 ^
+1 error generated.
+configure: failed program was:
+#line 1650 "configure"
+#include "confdefs.h"
+
+	#include <png.h>
+	/* Doesnt ac-try-compile ROCK? */
+	
+int main() {
+
+	
+; return 0; }
+configure:1690: checking if you want gdb friendly executable
+configure:1707: checking which processor class to optimize for
+configure:1737: checking for dirent.h that defines DIR
+configure:1775: checking for opendir in -ldir
+configure:1858: checking for ANSI C header files
+configure:1965: checking for fcntl.h
+configure:1965: checking for limits.h
+configure:1965: checking for malloc.h
+configure:1965: checking for sys/ioctl.h
+configure:1965: checking for unistd.h
+configure:2003: checking for working const
+configure:2078: checking for size_t
+configure:2111: checking whether time.h and sys/time.h may both be included
+configure:2149: checking for sys/time.h

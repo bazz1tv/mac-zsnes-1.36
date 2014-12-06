@@ -1,0 +1,257 @@
+/*
+ *  Summary:
+ *    Virtual keycodes
+ *  
+ *  Discussion:
+ *    These constants are the virtual keycodes defined originally in
+ *    Inside Mac Volume V, pg. V-191. They identify physical keys on a
+ *    keyboard. Those constants with "ANSI" in the name are labeled
+ *    according to the key position on an ANSI-standard US keyboard.
+ *    For example, kVK_ANSI_A indicates the virtual keycode for the key
+ *    with the letter 'A' in the US keyboard layout. Other keyboard
+ *    layouts may have the 'A' key label on a different physical key;
+ *    in this case, pressing 'A' will generate a different virtual
+ *    keycode.
+ */
+
+unsigned char key_scancode_mac_adapter[] = {
+0x1e, //   kVK_ANSI_A                    = 0x00, i need A in ZSNES world
+0x1f, //   kVK_ANSI_S                    = 0x01,
+0x20, //   kVK_ANSI_D                    = 0x02,
+0x21, //   kVK_ANSI_F                    = 0x03,
+0x23, //   kVK_ANSI_H                    = 0x04,
+0x22, //   kVK_ANSI_G                    = 0x05,
+0x2c, //   kVK_ANSI_Z                    = 0x06,
+0x2d, //   kVK_ANSI_X                    = 0x07,
+0x2e, //   kVK_ANSI_C                    = 0x08,
+0x2f, //   kVK_ANSI_V                    = 0x09,
+
+0x00 // junk filler
+
+0x30, //   kVK_ANSI_B                    = 0x0B,
+0x10, //   kVK_ANSI_Q                    = 0x0C,
+0x11, //   kVK_ANSI_W                    = 0x0D,
+0x12, //   kVK_ANSI_E                    = 0x0E,
+0x13, //   kVK_ANSI_R                    = 0x0F,
+0x15, //   kVK_ANSI_Y                    = 0x10,
+0x14, //   kVK_ANSI_T                    = 0x11,
+0x02, //   kVK_ANSI_1                    = 0x12,
+0x03, //   kVK_ANSI_2                    = 0x13,
+0x04, //   kVK_ANSI_3                    = 0x14,
+0x05, //   kVK_ANSI_4                    = 0x15,
+0x07, //   kVK_ANSI_6                    = 0x16,
+0x06, //   kVK_ANSI_5                    = 0x17,
+0x0d, //   kVK_ANSI_Equal                = 0x18,
+0x0a, //   kVK_ANSI_9                    = 0x19,
+0x08, //   kVK_ANSI_7                    = 0x1A,
+0x0c, //   kVK_ANSI_Minus                = 0x1B,
+0x09, //   kVK_ANSI_8                    = 0x1C,
+0x0b, //   kVK_ANSI_0                    = 0x1D,
+0x1b, //   kVK_ANSI_RightBracket         = 0x1E,
+0x18, //   kVK_ANSI_O                    = 0x1F,
+0x16, //   kVK_ANSI_U                    = 0x20,
+0x1a, //   kVK_ANSI_LeftBracket          = 0x21,
+0x17, //   kVK_ANSI_I                    = 0x22,
+0x19, //   kVK_ANSI_P                    = 0x23,
+
+0x1c, //   kVK_Return                    = 0x24,
+
+0x26, //   kVK_ANSI_L                    = 0x25,
+0x24, //   kVK_ANSI_J                    = 0x26,
+0x28, //   kVK_ANSI_Quote                = 0x27,
+0x25, //   kVK_ANSI_K                    = 0x28,
+0x27, //   kVK_ANSI_Semicolon            = 0x29,
+0x2b, //   kVK_ANSI_Backslash            = 0x2A,
+0x33, //   kVK_ANSI_Comma                = 0x2B,
+0x35, //   kVK_ANSI_Slash                = 0x2C,
+0x31, //   kVK_ANSI_N                    = 0x2D,
+0x32, //   kVK_ANSI_M                    = 0x2E,
+0x34, //   kVK_ANSI_Period               = 0x2F,
+
+0x0f, //   kVK_Tab                       = 0x30,
+0x39, //   kVK_Space                     = 0x31,
+
+0x29, // ????  kVK_ANSI_Grave                = 0x32,
+
+0x0e, //   kVK_Delete                    = 0x33,
+0x00,                                      0x34
+0x01, //   kVK_Escape                    = 0x35,
+
+0x00,                                      0x35
+0x00,                                      0x36
+0,    //   kVK_Command                   = 0x37,
+0,    //   kVK_Shift                     = 0x38,
+0,    //   kVK_CapsLock                  = 0x39,
+0,    //   kVK_Option                    = 0x3A,
+0,    //   kVK_Control                   = 0x3B,
+0,    //   kVK_RightShift                = 0x3C,
+0,    //   kVK_RightOption               = 0x3D,
+0,    //   kVK_RightControl              = 0x3E,
+0,    //   kVK_Function                  = 0x3F,
+0,    //   kVK_F17                       = 0x40,
+
+0x00, //   kVK_ANSI_KeypadDecimal        = 0x41,
+0x00,
+0x00, //   kVK_ANSI_KeypadMultiply       = 0x43,
+0x00,
+0x00, //   kVK_ANSI_KeypadPlus           = 0x45,
+0x00,
+0x00, //   kVK_ANSI_KeypadClear          = 0x47,
+0x00, //   kVK_VolumeUp                  = 0x48,
+0x00, //   kVK_VolumeDown                = 0x49,
+0x00, //   kVK_Mute                      = 0x4A,
+0x00, //   kVK_ANSI_KeypadDivide         = 0x4B,
+0x00, //   kVK_ANSI_KeypadEnter          = 0x4C,
+0,
+0x00, //   kVK_ANSI_KeypadMinus          = 0x4E,
+0x00, //   kVK_F18                       = 0x4F,
+0x00, //   kVK_F19                       = 0x50,
+0x00, //   kVK_ANSI_KeypadEquals         = 0x51,
+0x00, //   kVK_ANSI_Keypad0              = 0x52,
+0x00, //   kVK_ANSI_Keypad1              = 0x53,
+0x00, //   kVK_ANSI_Keypad2              = 0x54,
+0x00, //   kVK_ANSI_Keypad3              = 0x55,
+0x00, //   kVK_ANSI_Keypad4              = 0x56,
+0x00, //   kVK_ANSI_Keypad5              = 0x57,
+0x00, //   kVK_ANSI_Keypad6              = 0x58,
+0x00, //   kVK_ANSI_Keypad7              = 0x59,
+0,    //   kVK_F20                       = 0x5A,
+0x00, //   kVK_ANSI_Keypad8              = 0x5B,
+0x00, //   kVK_ANSI_Keypad9              = 0x5C
+0,0,0,
+0x3f, //   kVK_F5                        = 0x60,
+0x40, //   kVK_F6                        = 0x61,
+0x41, //   kVK_F7                        = 0x62,
+0x3d, //   kVK_F3                        = 0x63,
+0x42, //   kVK_F8                        = 0x64,
+0x43, //   kVK_F9                        = 0x65,
+0,
+0, //   kVK_F11                       = 0x67,
+0,
+0,//  kVK_F13                       = 0x69,
+0,//  kVK_F16                       = 0x6A,
+0,//  kVK_F14                       = 0x6B,
+0,
+0x44, //  kVK_F10                       = 0x6D,
+0,
+0,    //  kVK_F12                       = 0x6F,
+0,
+0,    //  kVK_F15                       = 0x71,
+0,    //  kVK_Help                      = 0x72,
+0,    //  kVK_Home                      = 0x73,
+0,    //  kVK_PageUp                    = 0x74,
+0,    //  kVK_ForwardDelete             = 0x75,
+0x3e, //  kVK_F4                        = 0x76,
+0,    //  kVK_End                       = 0x77,
+0x3c, //  kVK_F2                        = 0x78,
+0,    //  kVK_PageDown                  = 0x79,
+0x3b, //  kVK_F1                        = 0x7A,
+0,    //  kVK_LeftArrow                 = 0x7B,
+0,    //  kVK_RightArrow                = 0x7C,
+0,    //  kVK_DownArrow                 = 0x7D,
+0,    //  kVK_UpArrow                   = 0x7E
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
+
+
+
+
+
+
+
+
+
+
+
+scancode = 0x0035
+scancode = 0x0012
+scancode = 0x0013
+scancode = 0x0014
+scancode = 0x0015
+scancode = 0x0017
+scancode = 0x0016
+scancode = 0x001a
+scancode = 0x001c
+8scancode = 0x001c
+scancode = 0x0019
+scancode = 0x001d
+scancode = 0x001b
+scancode = 0x0018
+scancode = 0x0033
+above was backspace
+scancode = 0x0030
+scancode = 0x000c
+scancode = 0x000d
+scancode = 0x000e
+scancode = 0x000f
+scancode = 0x0011
+scancode = 0x0010
+scancode = 0x0020
+scancode = 0x0022
+scancode = 0x001f
+scancode = 0x0023
+scancode = 0x0021
+scancode = 0x001e
+scancode = 0x0024
+scancode = 0x0000
+above was left command, lets try left control now
+scancode = 0x0000
+now going to try left option
+scancode = 0x0000
+moving to A now
+scancode = 0x0000
+scancode = 0x0001
+scancode = 0x0002
+scancode = 0x0003
+scancode = 0x0005
+scancode = 0x0004
+scancode = 0x0026
+scancode = 0x0028
+scancode = 0x0025
+scancode = 0x0029
+scancode = 0x0027
+scancode = 0x0032
+scancode = 0x0000
+scancode = 0x002a
+scancode = 0x0006
+scancode = 0x0007
+scancode = 0x0008
+scancode = 0x0009
+scancode = 0x000b
+scancode = 0x002d
+scancode = 0x002e
+scancode = 0x002b
+scancode = 0x002f
+scancode = 0x002c
+scancode = 0x0000
+now spacebar
+ scancode = 0x0031
+scancode = 0x0000
+scancode = 0x0000
+scancode = 0x0000
+now functio nkeys
+scancode = 0x007a
+scancode = 0x0078
+scancode = 0x0063
+scancode = 0x0076
+scancode = 0x0060
+scancode = 0x0061
+scancode = 0x0062
+scancode = 0x0064
+f9, OSX occupies
+same with f10-f12
+ok thats everything

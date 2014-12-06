@@ -1,0 +1,1524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ff",
+				"ff_addr"
+			],
+			[
+				"fsf",
+				"fsf1_sp"
+			],
+			[
+				"update",
+				"update_stack_buffer"
+			],
+			[
+				"libc_",
+				"libc_binsh_addr"
+			],
+			[
+				"peek_",
+				"peek_system"
+			],
+			[
+				"check",
+				"check_ip_file"
+			],
+			[
+				"read_",
+				"read_with_timeout"
+			],
+			[
+				"Con",
+				"ControllerCar_PairInfo"
+			],
+			[
+				"CON",
+				"CONTROLLER_CONNECTED"
+			],
+			[
+				"conn",
+				"connection_status"
+			],
+			[
+				"recv",
+				"recv_rtthdr"
+			],
+			[
+				"add",
+				"remote_addrport"
+			],
+			[
+				"xml",
+				"xmlstr_tobe"
+			],
+			[
+				"start_t",
+				"start_timer"
+			],
+			[
+				"RTO",
+				"RTO_Toolkit"
+			],
+			[
+				"connection",
+				"connection_status"
+			],
+			[
+				"pugi",
+				"pugixml"
+			],
+			[
+				"append",
+				"append_child"
+			],
+			[
+				"pug",
+				"pugixml"
+			],
+			[
+				"packet",
+				"packet_doc_template"
+			],
+			[
+				"append_",
+				"append_attribute"
+			],
+			[
+				"app",
+				"append_attribute"
+			],
+			[
+				"xml_",
+				"xml_string_writer"
+			],
+			[
+				"LocalP",
+				"LocalProtocolAddr"
+			],
+			[
+				"uint",
+				"uint32_t"
+			],
+			[
+				"connec",
+				"connected_msg"
+			],
+			[
+				"sockadd",
+				"sockaddr_in"
+			],
+			[
+				"map",
+				"mapDaqSystemDaqDataDataReader_"
+			],
+			[
+				"Get",
+				"GetListener"
+			],
+			[
+				"des",
+				"deserialize"
+			],
+			[
+				"Local",
+				"LocalName"
+			],
+			[
+				"sin",
+				"sin_port"
+			],
+			[
+				"Remote",
+				"RemoteSocket"
+			],
+			[
+				"background-i",
+				"background-image"
+			],
+			[
+				"current",
+				"currentUsedCarNum"
+			],
+			[
+				"curre",
+				"currentUsedCarNum"
+			],
+			[
+				"tags",
+				"tagsFilename"
+			],
+			[
+				"cu",
+				"currentUsedCarNum"
+			],
+			[
+				"cur",
+				"currentCarNum"
+			],
+			[
+				"curr",
+				"currentCarNumFilename"
+			],
+			[
+				"accordion",
+				"accordionHeaderFontSize"
+			],
+			[
+				"Enabl",
+				"Enabler-IIG"
+			],
+			[
+				"accod",
+				"accordionEntry"
+			],
+			[
+				"accordi",
+				"accordionEntry"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "srcinfo.txt",
+			"settings":
+			{
+				"buffer_size": 6072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/gui/guiwindp.inc",
+			"settings":
+			{
+				"buffer_size": 168642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/gui/guimisc.inc",
+			"settings":
+			{
+				"buffer_size": 10900,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/gui/guimouse.inc",
+			"settings":
+			{
+				"buffer_size": 73665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/cpu/execute.asm",
+			"settings":
+			{
+				"buffer_size": 93141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/gui/gui.asm",
+			"settings":
+			{
+				"buffer_size": 124538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "untitled.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 27724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/win/winintrf.asm",
+			"settings":
+			{
+				"buffer_size": 45090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/linux/sdllink.c",
+			"settings":
+			{
+				"buffer_size": 29351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bazz/Desktop/porting_zsnes/SDL-1.2.15/src/video/maccommon/SDL_macevents.c",
+			"settings":
+			{
+				"buffer_size": 20544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/macros.mac",
+			"settings":
+			{
+				"buffer_size": 2800,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ";Copyright (C) 1997-2001 ZSNES Team ( zsknight@zsnes.com / _demo_@zsnes.com )\n;\n;This program is free software; you can redistribute it and/or\n;modify it under the terms of the GNU General Public License\n;as published by the Free Software Foundation; either\n;version 2 of the License, or (at your option) any later\n;version.\n;\n;This program is distributed in the hope that it will be useful,\n;but WITHOUT ANY WARRANTY; without even the implied warranty of\n;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n;GNU General Public License for more details.\n;\n;You should have received a copy of the GNU General Public License\n;along with this program; if not, write to the Free Software\n;Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\n\n%include \"macros.mac\"\n\nEXTSYM DosExit,ZFileSystemInit\nEXTSYM getcmdline,GUIRestoreVars,getcfg,obtaindir,ConvertJoyMap,tparms\nEXTSYM preparedir,SBHDMA\nEXTSYM ccmdline\nEXTSYM FilenameStart\nEXTSYM spcon\nEXTSYM cfgsoundon\nEXTSYM cfgcvidmode\nEXTSYM pl1contrl,pl2contrl\nEXTSYM InitDir,InitDrive, SRAMDir, SRAMDrive\nEXTSYM DOScreatenewcfg,ExecGUISaveVars\nEXTSYM allocptr\nEXTSYM putchar\nEXTSYM getchar\nEXTSYM exit\nEXTSYM ZOpenFile,ZOpenMode,CurrentHandle,ZFileSeek,ZOpenFileName,ZFileSeekMode\nEXTSYM ZFileSeekPos,ZFileSeekHandle\nEXTSYM ZFileWriteHandle,ZFileWriteSize,ZFileWriteBlock,ZFileWrite\nEXTSYM ZFileReadHandle,ZFileReadSize,ZFileReadBlock,ZFileRead\nEXTSYM ZFileDelFName,ZFileDelete\nEXTSYM ZCloseFileHandle,ZCloseFile\nEXTSYM ZFileTellHandle,ZFileTell\nEXTSYM ZFFTimeFName,ZFTime,ZFDate,ZFileGetFTime\nEXTSYM GetTime\nEXTSYM GetDate\nEXTSYM GUIkeydelay2\nEXTSYM ZFileMKDir,ZFileCHDir,ZFileRMDir,CHPath,MKPath,RMPath\nEXTSYM ZFileGetDir,DriveNumber,DirName\nEXTSYM DTALoc,DTALocPos,ZFileFindATTRIB,ZFileFindFirst,ZFileFindNext,ZFileFindPATH\nEXTSYM oldhand9s,oldhand9o,interror,oldhand8s,oldhand8o,oldhandSBs,oldhandSBo\nEXTSYM NoSoundReinit,soundon,DSPDisable,SBInt,NoSoundReinit,PICMaskP,SBIrq\nEXTSYM SBHandler,InitSB,handler8h,handler9h,init60hz,Interror,init18_2hz,DeInitSPC\nEXTSYM Start60HZ\nEXTSYM pressed\nEXTSYM RaisePitch,AdjustFrequency\nEXTSYM vidbufferofsb,vidbuffer\nEXTSYM clearwin\nEXTSYM Stop60HZ\nEXTSYM initwinvideo\nEXTSYM vesa2_rpos\nEXTSYM vesa2_gpos\nEXTSYM vesa2_bpos\nEXTSYM vesa2_rposng\nEXTSYM vesa2_gposng\nEXTSYM vesa2_bposng\nEXTSYM vesa2_usbit\nEXTSYM vesa2_clbit\nEXTSYM vesa2_clbitng\nEXTSYM vesa2_clbitng2\nEXTSYM vesa2_clbitng3\nEXTSYM genfulladdtabng\nEXTSYM vesa2red10\nEXTSYM res640\nEXTSYM res480\nEXTSYM AddSub256,InitVesa2,cbitmode,cvidmode\nEXTSYM scanlines,vesa2_bits\nEXTSYM vesa2_x,vesa2_y\nEXTSYM vesa2selec,InitVesa12,videotroub\nEXTSYM genfulladdtab\nEXTSYM GUICPC\nEXTSYM drawscreenwin\nEXTSYM ConvertToAFormat\nEXTSYM UnusedBit,HalfTrans,UnusedBitXor,UnusedBit,UnusedBitXor\nEXTSYM ngrposng,nggposng,ngbposng,HalfTransB,HalfTransC\nEXTSYM UpdateVFrame\nEXTSYM GetMouseX\nEXTSYM GetMouseY\nEXTSYM GetMouseMoveX\nEXTSYM GetMouseMoveY\nEXTSYM GetMouseButton\nEXTSYM SetMouseMinX,SetMouseMaxX\nEXTSYM SetMouseMinY,SetMouseMaxY\nEXTSYM SetMouseX,SetMouseY\nEXTSYM T36HZEnabled\nEXTSYM MouseButton\nEXTSYM Start36HZ\nEXTSYM Stop36HZ\nEXTSYM BufferSizeW,BufferSizeB,ProcessSoundBuffer\nEXTSYM CheckTimers\nEXTSYM vesa2_rfull,vesa2_rtrcl,vesa2_rtrcla\nEXTSYM vesa2_gfull,vesa2_gtrcl,vesa2_gtrcla\nEXTSYM vesa2_bfull,vesa2_btrcl,vesa2_btrcla\nEXTSYM Init_2xSaIMMXW\nEXTSYM TCPIPPortNum\nEXTSYM InitTCP\nEXTSYM StartServerCycle\nEXTSYM ServerCheckNewClient\nEXTSYM acceptzuser\nEXTSYM TCPIPAddress\nEXTSYM ConnectServer\nEXTSYM WaitForServer\nEXTSYM SendData\nEXTSYM SendDataUDP\nEXTSYM GetData\nEXTSYM DeInitTCP\nEXTSYM StopServer\nEXTSYM Disconnect\nEXTSYM UDPDisableMode,UDPEnableMode,UDPClearVars,UDPWait1Sec\nEXTSYM WinErrorA2,WinErrorB2,WinErrorC2\nEXTSYM GetLocalTime\nEXTSYM V8Mode,GrayscaleMode\nEXTSYM PrevWinMode,PrevFSMode\n\nNEWSYM WinIntRFAsmStart\n\n; NOTE: For timing, Game60hzcall should be called at 50hz or 60hz (depending\n;   on romispal) after a call to InitPreGame and before DeInitPostGame are\n;   made.  GUI36hzcall should be called at 36hz after a call GUIInit and\n;   before GUIDeInit.\n\n\nSECTION .data\n;NEWSYM OSPort, db 3      ; 0 = DOS (C), 1 = DOS (ASM), 2 = Linux, 3 = Win95\nSECTION .text\n\nNEWSYM StartUp\n    call ZFileSystemInit\n    ret\n\n; SystemInit - Initialize all Joystick stuff, load in all configuration data,\n;   parse commandline data, obtain current directory (One time initialization)\n\nNEWSYM SystemInit\n    ; Be sure to set SBHDMA to a value other than 0 if 16bit sound exists\n    push es\n    mov byte[cfgcvidmode],2\n    mov byte[cvidmode],2\n    call getcmdline\n    mov byte[esi],'z'\n    mov byte[esi+1],'s'\n    mov byte[esi+2],'n'\n    mov byte[esi+3],'e'\n    mov byte[esi+4],'s'\n    mov byte[esi+5],'l'\n    mov byte[esi+6],'.'\n    mov byte[esi+7],'c'\n    mov byte[esi+8],'f'\n    mov byte[esi+9],'g'\n    mov byte[esi+10],0\n    mov byte[esi+256],'z'\n    mov byte[esi+1+256],'g'\n    mov byte[esi+2+256],'u'\n    mov byte[esi+3+256],'i'\n    mov byte[esi+4+256],'c'\n    mov byte[esi+5+256],'f'\n    mov byte[esi+6+256],'g'\n    mov byte[esi+7+256],'l'\n    mov byte[esi+8+256],'.'\n    mov byte[esi+9+256],'d'\n    mov byte[esi+10+256],'a'\n    mov byte[esi+11+256],'t'\n    mov byte[esi+12+256],0\n\n    mov byte[spcon],1\n    mov byte[soundon],1\n    mov byte[cfgsoundon],1\n\n    ; Get and set the initial directory\n%ifdef __LINUX__\n    call obtaindir\n    mov ebx,InitDir\n    mov edx,InitDrive\n    call Get_Dir\n\n    mov dl,[SRAMDrive]\n    mov ebx,SRAMDir\n    call Change_Dir\n%else\n    mov ebx,InitDir\n    mov edx,InitDrive\n    call Get_Dir\n\n    mov dl,[InitDrive]\n    mov ebx,InitDir\n    call Change_Dir\n%endif\n\n	\n    call GUIRestoreVars                 ; Load GUI stuff\n\n    call getcfg                         ; Load cfg stuff\n\n    call obtaindir                      ; Get Save/Init Directories\n\n    call ConvertJoyMap                  ; Mini joystick init\n    call ccmdline\n    call tparms\n%ifndef __LINUX__\n    call preparedir\n%else\n    mov ebx,SRAMDir\n    call Change_Dir\n%endif	\n;    call getblaster                     ; get set blaster environment\n;    cmp byte[Force8b],1\n;    jne .noforce8b\n    mov byte[SBHDMA],1\n;.noforce8b\n    pop es\n    ret\n\n; Configuration save re-routing functions.  You can comment these out\n;   for debugging purposes or change it if you're using a different\n;   configuration format\nNEWSYM createnewcfg\n    call DOScreatenewcfg\n    ret\nNEWSYM GUISaveVars\n    call ExecGUISaveVars\n    ret\n\n; Allocate memory - see allocptr in ui.asm for details on what to allocate\nNEWSYM allocmem\n    call allocptr\n    ret\n\n\nNEWSYM PrintChar\n    ret\n    ; print character at dl, push all modified registers\n\nNEWSYM PrintStr          ; Print ASCIIZ string\n\n    pushad\n\n.next\n    mov al,[edx]\n    or al,al\n    jz .finish\n    push edx\n    mov dl,al\n    push edx\n    call putchar\n    pop edx\n    pop edx\n    inc edx\n    jmp .next\n.finish\n    popad\n    ret\n\n\nNEWSYM wfkey, db 0\n\nNEWSYM WaitForKey       ; Wait for a key to be pressed\n    pushad\n    ; bazz start\n    mov ebx, esp        ; remember current esp\n    and esp, 0xFFFFFFF0 ; align to next 16 byte boundary (could be zero offset!)\n    sub esp, 12         ; skip ahead 12 so we can store original esp\n    push ebx            ; store esp (16 bytes aligned again)\n    ; bazz end \n    call getchar\n    ; bazz start\n    pop ebx             ; get original esp\n    mov esp, ebx        ; restore\n    ; bazz end \n    mov [wfkey],al\n    popad\n    mov al,[wfkey]\n    ; return key in al\n    ret\n\nNEWSYM OsExit\nNEWSYM OSExit\n    jmp DosExit\n\nNEWSYM TempHandle, dd 0\n\nNEWSYM Open_File\n    pushad\n    mov dword[ZOpenMode],0\n    mov dword[ZOpenFileName],edx\n    call ZOpenFile\n    cmp eax,0FFFFFFFFh\n    je .error\n    mov [TempHandle],eax\n    mov dword[ZFileSeekMode],0\n    mov dword[ZFileSeekPos],0\n    mov dword[ZFileSeekHandle],eax\n    call ZFileSeek\n    popad\n    mov ax,[TempHandle]\n    clc\n    ret\n.error\n    popad\n    stc\n    ret\n\nNEWSYM Open_File_Write\n    pushad\n    mov dword[ZOpenMode],2\n    mov dword[ZOpenFileName],edx\n    call ZOpenFile\n    cmp eax,0FFFFFFFFh\n    je .error\n    mov [TempHandle],eax\n    mov dword[ZFileSeekMode],0\n    mov dword[ZFileSeekPos],0\n    mov dword[ZFileSeekHandle],eax\n    call ZFileSeek\n    popad\n    mov ax,[TempHandle]\n    clc\n    ret\n.error\n    popad\n    stc\n    ret\n\nNEWSYM Create_File\n    pushad\n    mov dword[ZOpenMode],1\n    mov dword[ZOpenFileName],edx    \n    call ZOpenFile\n    cmp eax,0FFFFFFFFh\n    je .error\n    mov [TempHandle],eax\n    popad\n    mov ax,[TempHandle]\n    clc\n    ret\n.error\n    popad\n    stc\n    ret\n\nNEWSYM Write_File\n    mov dword[ZFileWriteHandle],0\n    mov [ZFileWriteHandle],bx\n    mov [ZFileWriteSize],ecx\n    mov [ZFileWriteBlock],edx\n    pushad\n    call ZFileWrite\n    cmp eax,0FFFFFFFFh\n    je .fail\n    popad\n    mov eax,1\n    clc\n    ret\n.fail\n    popad\n    mov eax,0\n    stc\n    ret\n\nNEWSYM Read_File\n    mov dword[ZFileReadHandle],0\n    mov [ZFileReadHandle],bx\n    mov [ZFileReadSize],ecx\n    mov [ZFileReadBlock],edx\n    pushad\n    call ZFileRead\n    mov [TempVarSeek],eax\n    popad\n    mov eax,[TempVarSeek]\n    clc\n    ret\n\nNEWSYM Delete_File\n    mov [ZFileDelFName],edx\n    pushad\n    call ZFileDelete\n    popad\n    ret\n\nNEWSYM Close_File\n    mov dword[ZCloseFileHandle],0\n    mov [ZCloseFileHandle],bx\n    pushad\n    call ZCloseFile\n    popad\n    clc\n    ret\n\nNEWSYM File_Seek\n    mov word[ZFileSeekPos+2],cx\n    mov word[ZFileSeekPos],dx\n    mov dword[ZFileSeekMode],0\n    mov dword[ZFileSeekHandle],0\n    mov word[ZFileSeekHandle],bx\n    pushad\n    call ZFileSeek\n    popad\n    mov ax,dx\n    mov dx,cx\n    ret\n\nNEWSYM File_Seek_End\n    mov word[ZFileSeekPos+2],cx\n    mov word[ZFileSeekPos],dx\n    mov dword[ZFileSeekHandle],0\n    mov word[ZFileSeekHandle],bx\n    mov dword[ZFileSeekMode],1\n    mov dword[ZFileTellHandle],0\n    mov word[ZFileTellHandle],bx\n    pushad\n    call ZFileSeek\n    call ZFileTell\n    mov [TempVarSeek],eax\n    popad\n    mov ax,[TempVarSeek]\n    mov dx,[TempVarSeek+2]\n    ret\n\nNEWSYM Get_Time\n    pushad\n    call GetTime\n    mov [TempVarSeek],eax\n    popad\n    mov eax,[TempVarSeek]\n    ret\n\nNEWSYM Get_TimeDate\n    pushad\n    call GetDate\n    mov [TempVarSeek],eax\n    popad\n    mov eax,[TempVarSeek]\n    ret\n\nNEWSYM Get_Date\n    ; dl = day, dh = month, cx = year\n    mov dx,0\n    mov cx,0\n    ret\n\nNEWSYM Get_File_Date\n    mov [ZFFTimeFName],edx\n    pushad\n    call ZFileGetFTime\n    popad\n    mov edx,[ZFDate]\n    mov ecx,[ZFTime]\n    ret\n\nRefreshKeybBuffer:\n    call JoyRead\n    mov ebx,[HoldKey]\n    cmp byte[pressed+ebx],0\n    jne .holding\n    mov dword[HoldKey],0\n.holding\n    xor eax,eax\n    xor ebx,ebx\n.loop\n    cmp byte[PKeyBuf+eax],0\n    jne .not1\n    cmp byte[pressed+eax],0\n    je .not1\n    mov byte[PKeyBuf+eax],1\n    mov ebx,eax\n.not1\n    cmp byte[pressed+eax],0\n    jne .not0\n    mov byte[PKeyBuf+eax],0\n.not0\n    inc eax\n    cmp eax,100h\n    jne .loop\n    or ebx,ebx\n    jz .notpressed\n    mov [HoldKey],ebx\n    mov byte[GUIkeydelay2],14\n    call .processkey\n.notpressed\n    ; Execute the following at 36hz\n    cmp dword[HoldKey],0\n    je .noholder\n    cmp byte[GUIkeydelay2],0\n    jne .noholder\n    mov byte[GUIkeydelay2],3\n    call .processkey\n.noholder\n    ret\n.processkey\n    mov ebx,[HoldKey]\n    cmp ebx,0A8h\n    jb .skipdecval\n    sub ebx,80h\n.skipdecval\n    cmp ebx,58h\n    jae .none\n    xor eax,eax\n    mov al,[Keybtail]\n    inc al\n    and al,0Fh\n    cmp al,[Keybhead]\n    je .none\n    mov al,[Keybtail]\n    inc al\n    and al,0Fh\n    mov [Keybtail],al\n.none\n    ret\nKeybhead db 0\nKeybtail db 0\nHoldKey dd 0\nPKeyBuf times 100h db 0\n\nNEWSYM CurKeyPos, dd 0\nNEWSYM CurKeyReadPos, dd 0\nNEWSYM KeyBuffer, times 16 dd 0\n\nNEWSYM Check_Key\n    mov al,[CurKeyPos]\n    cmp al,[CurKeyReadPos]\n    jne .yeskey\n    xor al,al\n    ret\n.yeskey\n    mov al,0FFh\n    ret\n\nNEWSYM Get_Key\n    ; wait if there are no keys in buffer, then return key in al\n    ; for extended keys, return a 0, then the extended key afterwards\n    xor eax,eax\n.nokey\n    pushad\n    call JoyRead\n    popad\n    mov al,[CurKeyReadPos]\n    cmp al,[CurKeyPos]\n    je .nokey\n    test word[KeyBuffer+eax*4],100h\n    jnz .upper\n    mov al,[KeyBuffer+eax*4]\n    inc dword[CurKeyReadPos]\n    and dword[CurKeyReadPos],0Fh\n    ret\n.upper\n    sub word[KeyBuffer+eax*4],100h\n    xor al,al\n    ret\n\nNEWSYM Change_Drive\n    ret\n\nNEWSYM Change_Single_Dir\n    mov [CHPath],edx\n    pushad\n    call ZFileCHDir\n    or eax,eax\n    jnz .notokay\n    popad\n    clc\n    ret\n.notokay\n    popad\n    stc\n    ret\n\nNEWSYM Create_Dir\n    ; change to dir in edx\n    mov [MKPath],edx\n    pushad\n    call ZFileMKDir\n    or eax,eax\n    jnz .notokay\n    popad\n    clc\n    ret\n.notokay\n    popad\n    stc\n    ret\n\nNEWSYM Remove_Dir\n    ; remove dir in edx\n    mov [RMPath],edx\n    pushad\n    call ZFileRMDir\n    or eax,eax\n    jnz .notokay\n    popad\n    clc\n    ret\n.notokay\n    popad\n    stc\n    ret\n\nNEWSYM Change_Dir\n    mov [CHPath],ebx\n    cmp byte[ebx],0\n    je .nocdir\n    pushad\n    call ZFileCHDir\n    or eax,eax\n    jnz .fail\n    popad\n.nocdir\n    clc\n    ret\n.fail\n    popad\n    stc\n    ret\n\nNEWSYM Get_Dir\n    mov [DirName],ebx\n    pushad\n    call ZFileGetDir\n    mov eax,[DirName]\n    mov ebx,eax\n    mov ecx,128\n.loop\n    mov dl,[eax]\n;    cmp dl,'/'\n;    jne .noslash\n    ;mov dl,'\\'\n;.noslash\n    mov [eax],dl\n    inc eax\n    dec ecx\n    jnz .loop\n    popad\n    ret\n\nNEWSYM Get_First_Entry\n    ; cx = attributes, edx = pointer to wildcard\n    ; returns : DTALoc+15h, bit 4 = Dir (1) or File (0)\n    ;           DTALoc+1Eh = filename, carry flag set = no more entry\n    mov [ZFileFindPATH],edx\n    mov dword[ZFileFindATTRIB],0\n    mov [ZFileFindATTRIB],cx\n    mov dword[DTALocPos],DTALoc\n    pushad\n    call ZFileFindFirst\n    or eax,eax\n    jnz .end\n    popad\n    clc\n    ret\n.end\n    popad\n    stc\n    ret\n\nNEWSYM Get_Next_Entry\n    mov dword[DTALocPos],DTALoc\n    pushad\n    call ZFileFindNext\n    or eax,eax\n    jnz .end\n    popad\n    clc\n    ret\n.end\n    popad\n    stc\n    ret\n\nNEWSYM Set_DTA_Address\n    ; Only needed for dos stuff\n    ret\n\nNEWSYM Get_Memfree\n    mov eax,02000000h\n    ret\n\nNEWSYM Output_Text       ; Output character (ah=02h) or string (ah=09h)\n    pushad \n\n    ; This function usually displays an error message on-screen\n    cmp ah,02h\n    je .char\n    cmp ah,09h\n    je .string\n    ret\n.char\n    push edx\n    call putchar\n    pop edx\n    popad\n    ret\n.string\n    pushad\n    call PrintStr       ; print edx\n    popad\n    popad\n    ret\n\n\n\nNEWSYM InitPreGame   ; Executes before starting/continuing a game\n    mov byte[pressed+1],2\n    pushad\n    call Start60HZ\n    popad\n    pushad\n    call initwinvideo\n    popad\n\n    mov al,[GrayscaleMode]\n    cmp al,[V8Mode]\n    je .nochangemode\n    xor byte[V8Mode],1\n    xor al,al\n.nochangemode\n\n    mov byte[RaisePitch],1\n    pushad\n    call AdjustFrequency\n    popad\n\n    pushad\n    xor eax,eax\n    mov edi,[vidbufferofsb]\n    mov ecx,228*120\n    rep stosd\n    popad\n\n    pushad\n    call clearwin\n    popad\n    ret\n\nNEWSYM SetupPreGame   ; Executes after pre-game init, can execute multiple\n                      ; times after a single InitPreGame\n    mov byte[pressed+1],2\n    ret\n\n\nNEWSYM DeInitPostGame           ; Called after game is ended\n    pushad\n    call Stop60HZ\n    popad\n    ret\n\n; ****************************\n; Video Stuff\n; ****************************\n\n; ** Palette Functions **\nNEWSYM makepal  ; 8-bit palette set\n    ret\n;    jmp dosmakepal\nNEWSYM changepal  ; 8-bit palette set (changes only)\n    ret\n;    jmp doschangepal\nNEWSYM displayfpspal\n    ret\n\nNEWSYM superscopepal\n    ret\n\nNEWSYM saveselectpal\n    ret\n\n; ** init video mode functions **\nNEWSYM firstvideo, dd 1\n\n\nNEWSYM initvideo  ; Returns 1 in videotroub if trouble occurs\n   mov byte[res640],1\n   mov byte[res480],1\n   mov byte[cbitmode],1\n   mov word[vesa2_x],512\n   mov word[vesa2_y],480\n   mov byte[vesa2_bits],16\n   mov dword [vesa2_bits],16\n   mov dword [vesa2_rpos],11\n   mov dword [vesa2_gpos],5\n   mov dword [vesa2_bpos],0\n   mov byte[vesa2red10],0\n   mov byte[vesa2_rposng],11\n   mov byte[vesa2_gposng],5\n   mov byte[vesa2_bposng],0\n   mov dword[vesa2_clbitng],1111011111011110b\n   mov dword[vesa2_clbitng2],11110111110111101111011111011110b\n   mov dword[vesa2_clbitng2+4],11110111110111101111011111011110b\n   mov dword[vesa2_clbitng3],0111101111101111b\n\n   pushad\n   call initwinvideo\n   popad\n\n   xor eax,eax\n   mov al,[cvidmode]\n   cmp byte[GUIWFVID+eax],0\n   je .prevwinmode\n   mov byte[PrevFSMode],al\n   jmp .doneprevmode\n.prevwinmode\n   mov byte[PrevWinMode],al\n.doneprevmode\n\n   cmp dword[firstvideo],1\n   je .skipinitgfx\n   pushad\n   call InitializeGfxStuff\n   popad\n\n.skipinitgfx\n   mov dword[firstvideo],0\n\n   pushad\n   call InitializeGfxStuff\n   popad\n\n   ret\n\n\nNEWSYM initvideo2 ; ModeQ scanline re-init (Keep blank on non-dos ports)\n    ret\n\nNEWSYM deinitvideo\n    ret\n\n; ** copy video mode functions **\nNEWSYM converta, dd 0\nNEWSYM DrawScreen               ; In-game screen render w/ triple buffer check\n    cmp dword [converta],1\n    jne near .skipconv\n    pushad\n        mov dword[UnusedBit],     10000000000000001000000000000000b\n        mov dword[HalfTrans],     01111011110111100111101111011110b\n        mov dword[UnusedBitXor],  01111111111111110111111111111111b\n        mov dword[UnusedBit+4],   10000000000000001000000000000000b\n        mov dword[HalfTrans+4],   01111011110111100111101111011110b\n        mov dword[UnusedBitXor+4],01111111111111110111111111111111b\n        mov dword[HalfTransB],    00000100001000010000010000100001b\n        mov dword[HalfTransB+4],  00000100001000010000010000100001b\n        mov dword[HalfTransC],    01111011110111100111101111011110b\n        mov dword[HalfTransC+4],  01111011110111100111101111011110b\n        mov dword[ngrposng],10\n        mov dword[nggposng],5\n        mov dword[ngbposng],0\n\n    call ConvertToAFormat\n\n    popad\n\n.skipconv\n    pushad\n    call drawscreenwin\n    popad\n\n    ret\n\nNEWSYM vidpastecopyscr       ; GUI screen render\n   pushad\n   xor eax,eax\n   mov al,[cvidmode]\n   cmp byte[GUI16VID+eax],1\n   jne .no16bconv\n   mov eax,[vidbuffer]\n   mov ecx,224*288\n   mov edx,ecx\n   sub ecx,288\n   dec edx\n.loop\n   xor ebx,ebx\n   mov bl,[eax+edx]\n   mov bx,[GUICPC+ebx*2]\n   mov [eax+edx*2],bx\n   dec edx\n   dec ecx\n   jnz .loop\n.no16bconv\n   popad\n   jmp DrawScreen\n\n\n; ** Clear Screen function **\nNEWSYM ClearScreen\n   ret\n\n; ** Video Mode Variables **\nSECTION .data\n\n; Total Number of Video Modes\n%ifdef __OPENGL__\nNEWSYM NumVideoModes, dd 17\n%else\nNEWSYM NumVideoModes, dd 4\n%endif\n\n; GUI Video Mode Names - Make sure that all names are of the same length\n; and end with a NULL terminator\nNEWSYM GUIVideoModeNames\ndb '256X224    R WIN ',0  ;0\ndb '256x224    R FULL',0  ;1\ndb '512X448   DR WIN ',0  ;2\ndb '640x480   DR FULL',0  ;3\n%ifdef __OPENGL__\ndb '256x224  OGL WIN ',0  ;4\ndb '512x448  OGL WIN ',0  ;5\ndb '640x480  OGL FULL',0  ;6\ndb '640x576  OGL WIN ',0  ;7\ndb '768x672  OGL WIN ',0  ;8\ndb '896x784  OGL WIN ',0  ;9\ndb '1024x896 OGL WIN ',0  ;10\ndb '800x600  OGL FULL',0  ;11\ndb '1024x768 OGL FULL',0  ;12\ndb '640x480  OGL WIN ',0  ;13\ndb '800x600  OGL WIN ',0  ;14\ndb '1024x768 OGL WIN ',0  ;15\ndb 'VARIABLE OGL WIN ',0  ;16 \n%endif	\n\n; Video Mode Feature Availability (1 = Available, 0 = Not Available)\n; Left side starts with Video Mode 0\n; vid mode column = 0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6 \nNEWSYM GUI16VID, db 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1       ; 16-bit mode\nNEWSYM GUINGVID, db 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1       ; New Graphics Mode Available\nNEWSYM GUISLVID, db 0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1       ; Scanlines\nNEWSYM GUIINVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Interpolation\nNEWSYM GUII2VID, db 0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Interpolation(w)\nNEWSYM GUIEAVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Eagle\nNEWSYM GUIIEVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; (Interp | Eagle)\nNEWSYM GUIFSVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Full Screen\nNEWSYM GUIWSVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; (Full Scr. | Wide Scr.)\nNEWSYM GUISSVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Small Screen\nNEWSYM GUITBVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Triple Buffering\nNEWSYM GUIHSVID, db 0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1       ; Half/Quarter Scanlines\nNEWSYM GUI2xVID, db 0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1       ; 2xSaI/Super Eagle Engines\nNEWSYM GUIM7VID, db 0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1       ; ?Mode 7 video thing?\nNEWSYM GUIWFVID, db 0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0       ; If Windows Full Screen\nNEWSYM GUIDSIZE, db 0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0\nNEWSYM GUIRATIO, db 0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0\nNEWSYM GUIBIFIL, db 0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1       ; binlinear = 1, nearest = 0\nNEWSYM GUITBWVID, db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0       ; Triple Buffering (Win)\n	\nSECTION .text\n\n; ****************************\n; Input Device Stuff\n; ****************************\n\n; Variables related to Input Device Routines:\n;   pl1selk,pl1startk,pl1upk,pl1downk,pl1leftk,pl1rightk,pl1Xk,\n;   pl1Ak,pl1Lk,pl1Yk,pl1Bk,pl1Rk\n;     (Change 1 to 2,3,4 for other players)\n;     Each of these variables contains the corresponding key pressed value\n;       for the key data\n;   pressed[]\n;     - This is an array of pressed/released data (bytes) where the\n;       corresponding key pressed value is used as the index.  The value\n;       for each entry is 0 for released and 1 for pressed.  Also, when\n;       writing keyboard data to this array, be sure to first check if\n;       the value of the array entry is 2 or not.  If it is 2, do not write 1\n;       to that array entry. (however, you can write 0 to it)\n;   As an example, to access Player 1 L button press data, it is\n;     done like : pressed[pl1Lk]\n;   The 3 character key description of that array entry is accessed by the\n;     GUI through ScanCodeListing[pl1Lk*3]\n\n; Note: When storing the input device configuration of a dynamic input\n;   device system (ie. Win9x) rather than a static system (ie. Dos), it\n;   is best to store in the name of the device and relative button\n;   assignments in the configuration file, then convert it to ZSNES'\n;   numerical corresponding key format after reading from it. And then\n;   convert it back when writing to it back.\n\nNEWSYM UpdateDevices                    ; One-time input device init\n        ret\n\nNEWSYM JoyRead\n        pushad\n        call UpdateVFrame\n        popad\n        ret\n\nSECTION .data\n\n; Total Number of Input Devices\nNEWSYM NumInputDevices, dd 2\n\n; Input Device Names\nNEWSYM GUIInputNames\ndb 'NONE            ',0\ndb 'KEYB/JOYSTICK   ',0\ndb '                ',0\ndb '                ',0\ndb '                ',0\ndb '                ',0\ndb 'SIDEWINDERPAD1  ',0\ndb 'SIDEWINDERPAD2  ',0\ndb 'SIDEWINDERPAD3  ',0\ndb 'SIDEWINDERPAD4  ',0\ndb 'GAMEPAD PRO P0  ',0\ndb 'GAMEPAD PRO P1  ',0\ndb 'PARALLEL LPT1 P1',0\ndb 'PARALLEL LPT1 P2',0\ndb 'PARALLEL LPT2 P1',0\ndb 'PARALLEL LPT2 P2',0\n\n; GUI Description codes for each corresponding key pressed value\nNEWSYM ScanCodeListing\n        db '---','ESC',' 1 ',' 2 ',' 3 ',' 4 ',' 5 ',' 6 '  ; 00h\n        db ' 7 ',' 8 ',' 9 ',' 0 ',' - ',' = ','BKS','TAB'\n        db ' Q ',' W ',' E ',' R ',' T ',' Y ',' U ',' I '  ; 10h\n        db ' O ',' P ',' [ ',' ] ','RET','LCT',' A ',' S '\n        db ' D ',' F ',' G ',' H ',' J ',' K ',' L ',' : '  ; 20h\n        db ' \" ',' ~ ','LSH',' \\ ',' Z ',' X ',' C ',' V '\n        db ' B ',' N ',' M ',' , ',' . ',' / ','RSH',' * '  ; 30h\n        db 'LAL','SPC','CAP','F1 ','F2 ','F3 ','F4 ','F5 '\n%ifdef __LINUX__\n        db 'F6 ','F7 ','F8 ','F9 ','F10','NUM','SCR','KP7'  ; 40h\n        db 'KP8','KP9','KP-','KP4','KP5','KP6','KP+','KP1'\n        db 'KP2','KP3','KP0','KP.','   ','   ','OEM','F11'  ; 50h\n        db 'F12','HOM',' UP','PGU','LFT','5DH','RGT','END'\n        db 'DWN','PGD','INS','DEL','64H','65H','66H','67H'  ; 80h\n%else\n        db 'F6 ','F7 ','F8 ','F9 ','F10','NUM','SCR','N 7'  ; 40h\n        db 'N 8','N 9','N -','N 4','N 5','N 6','N +','N 1'\n        db 'N 2','N 3','N 0','N .','   ','   ','OEM','F11'  ; 50h\n        db 'F12','59h','5Ah','5BH','5CH','5DH','5EH','5FH'\n        db '60H','61H','62H','63H','64H','65H','66H','67H'  ; 80h\n        db '68H','69H','6AH','6BH','6CH','6DH','6EH','6FH'\n%endif\n        db '70H','71H','72H','73H','74H','75H','76H','77H'  ; 90h\n        db '78H','79H','7AH','7BH','7CH','7DH','7EH','7FH'  ; 0x70 bazz\n        ; Keyboard continued (Direct Input)\n        db '80H','81H','82H','83H','84H','85H','86H','87H'  ; 80h\n        db '88H','89H','8AH','8BH','8CH','8DH','8EH','8FH'\n        db '90H','91H','92H','93H','94H','95H','96H','97H'  ; 90h\n        db '98H','99H','9AH','9BH','9CH','9DH','9EH','9FH'\n        db 'A0H','A1H','A2H','A3H','A4H','A5H','A6H','A7H'  ; A0h\n        db 'A8H','A9H','AAH','ABH','ACH','ADH','AEH','AFH'\n        db 'B0H','B1H','B2H','B3H','B4H','B5H','B6H','B7H'  ; B0h\n        db 'B8H','B9H','BAH','BBH','BCH','BDH','BEH','BFH'  \n        db 'C0H','C1H','C2H','C3H','C4H','C5H','C6H','C7H'  ; C0h\n        db 'C8H','C9H','CAH','CBH','CCH','CDH','CEH','CFH'\n        db 'D0H','D1H','D2H','D3H','D4H','D5H','D6H','D7H'  ; D0h\n        db 'D8H','D9H','DAH','DBH','DCH','DDH','DEH','DFH'\n        db 'E0H','E1H','E2H','E3H','E4H','E5H','E6H','E7H'  ; E0h\n        db 'E8H','E9H','EAH','EBH','ECH','EDH','EEH','EFH'\n        db 'F0H','F1H','F2H','F3H','F4H','F5H','F6H','F7H'  ; F0h\n        db 'F8H','F9H','FAH','FBH','FCH','FDH','FEH','FFH'\n        ; Joystick Stuff (Direct Input)\n        db 'J00','J01','J02','J03','J04','J05','J06','J07'\n        db 'J08','J09','J0A','J0B','J0C','J0D','J0E','J0F'\n        db 'J10','J11','J12','J13','J14','J15','J16','J17'\n        db 'J18','J19','J1A','J1B','J1C','J1D','J1E','J1F'\n        db 'J20','J21','J22','J23','J24','J25','J26','J27'\n        db 'J28','J29','J2A','J2B','J2C','J2D','J2E','J2F'\n        db 'J30','J31','J32','J33','J34','J35','J36','J37'\n        db 'J38','J39','J3A','J3B','J3C','J3D','J3E','J3F'\n        db 'J40','J41','J42','J43','J44','J45','J46','J47'\n        db 'J48','J49','J4A','J4B','J4C','J4D','J4E','J4F'\n        db 'J50','J51','J52','J53','J54','J55','J56','J57'\n        db 'J58','J59','J5A','J5B','J5C','J5D','J5E','J5F'\n        db 'J60','J61','J62','J63','J64','J65','J66','J67'\n        db 'J68','J69','J6A','J6B','J6C','J6D','J6E','J6F'\n        db 'J70','J71','J72','J73','J74','J75','J76','J77'\n        db 'J78','J79','J7A','J7B','J7C','J7D','J7E','J7F'\n        ; Extra Stuff (180h) (Parallel Port)\n        db 'PPB','PPY','PSL','PST','PUP','PDN','PLT','PRT'\n        db 'PPA','PPX','PPL','PPR','   ','   ','   ','   '\n        db 'P2B','P2Y','P2S','P2T','P2U','P2D','P2L','P2R'\n        db 'P2A','P2X','P2L','P2R','   ','   ','   ','   '\n        db 'PPB','PPY','PSL','PST','PUP','PDN','PLT','PRT'\n        db 'PPA','PPX','PPL','PPR','   ','   ','   ','   '\n        db 'P2B','P2Y','P2S','P2T','P2U','P2D','P2L','P2R'\n        db 'P2A','P2X','P2L','P2R','   ','   ','   ','   '\n\nSECTION .text\n\nSECTION .data\nNEWSYM ZSNESBase, dd 0\nTempVarSeek dd 0\ngotoroot db '/',0\nSECTION .text\n\n; ****************************\n; Mouse Stuff\n; ****************************\n\nNEWSYM Init_Mouse\n    ; return non-zero if successful\n    mov eax,01h\n    ret\n\nNEWSYM WMouseX, dd 0\nNEWSYM WMouseY, dd 0\nNEWSYM WMouseMoveX, dd 0\nNEWSYM WMouseMoveY, dd 0\nNEWSYM WMouseButton, dd 0\n\nNEWSYM Get_MouseData         ; Returns both pressed and coordinates\n    ; bx : bit 0 = left button, bit 1 = right button\n    ; cx = Mouse X Position, dx = Mouse Y Position\n    pushad\n    call GetMouseX\n    mov [WMouseX],eax\n    call GetMouseY\n    mov [WMouseY],eax\n    call GetMouseButton\n    mov [WMouseButton],eax\n    popad\n    mov cx,[WMouseX]\n    mov dx,[WMouseY]\n    mov bx,[WMouseButton]\n    ret\n\nNEWSYM Set_MouseXMax    ; Sets the X boundaries (ecx = left, edx = right)\n    ;pushad\n    ;push ecx\n    ;call SetMouseMinX\n    ;pop ecx\n    ;push edx\n    ;call SetMouseMaxX\n    ;pop edx\n    ;popad\n    ret\n\nNEWSYM Set_MouseYMax    ; Sets the Y boundaries (ecx = left, edx = right)\n    ;pushad\n    ;push ecx\n    ;call SetMouseMinY\n    ;pop ecx\n    ;push edx\n    ;call SetMouseMaxY\n    ;pop edx\n    ;popad\n    ret\n\nNEWSYM Set_MousePosition        ; Sets Mouse Position (x:cx,y:dx)\n    ;pushad\n    ;push ecx\n    ;call SetMouse\n    ;pop ecx\n    ;push edx\n    ;call SetMouseY\n    ;pop edx\n    ;popad\n    ret\n\nNEWSYM Get_MousePositionDisplacement\n    ; returns x,y displacement in pixel in cx,dx\n    pushad\n    call GetMouseMoveX\n    mov [WMouseMoveX],eax\n    call GetMouseMoveY\n    mov [WMouseMoveY],eax\n    popad\n    mov cx,[WMouseMoveX]\n    mov dx,[WMouseMoveY]\n    ret\n\n\nNEWSYM MouseWindow\n    pushad\n    or byte[MouseButton],2\n    mov byte[T36HZEnabled],1\n    call GetMouseButton\n    and byte[MouseButton],0FDh\n    popad\n    ret\n\nNEWSYM GUIInit\n    pushad\n    call Start36HZ\n    popad\n    ret\n\nNEWSYM GUIDeInit\n    pushad\n    call Stop36HZ\n    popad\n    ret\n\n; ****************************\n; Sound Stuff\n; ****************************\n\nNEWSYM StopSound\n    call Start36HZ\n    call JoyRead\n    ret\n\nNEWSYM StartSound\n    call Start60HZ\n    call JoyRead\n    ret\n\n\nNEWSYM SoundProcess     ; This function is called ~60 times/s at full speed\n   pushad\n;    cmp byte[OSPort],1  ; Do not call in the dos port\n;    ja .notdos\n;.notdos\n    cmp byte[soundon],0\n    je .nosound\n    cmp byte[DSPDisable],1\n    je .nosound\n    mov eax,256         ; Size\n    mov dword[BufferSizeB],eax\n    add eax,eax\n    mov dword[BufferSizeW],eax\n    pushad\n    call ProcessSoundBuffer\n    popad\n    ; DSPBuffer should contain the processed buffer in the specified size\n    ; You will have to convert/clip it to 16-bit for actual sound process\n.nosound    \n    popad\n    ret\n\nNEWSYM delay\n   ret\n\nNEWSYM Check60hz\n    ; Call the timer update function here\n    pushad\n    call CheckTimers\n    popad\n    ret\n\nBitPosR db 11 \nBitPosG db 5\nBitPosB db 0\nBitSizeR db 5\nBitSizeG db 6\nBitSizeB db 5\n\n\nInitializeGfxStuff:\n        ; Process Red Stuff\n        mov al,[BitPosR]\n        mov cl,al\n        mov bx,1\n        shl bx,cl\n        cmp byte[BitSizeR],6\n        jne .no6bit\n        mov [vesa2_usbit],bx\n        inc al\n.no6bit\n        or [vesa2_clbit],bx\n        mov [vesa2_rpos],al\n        dec al\n        mov cl,al\n        mov bx,001Fh\n        cmp cl,0FFh\n        je .shrr\n        shl bx,cl\n        jmp .shlr\n.shrr\n        shr bx,1\n.shlr\n        mov word[vesa2_rfull],bx\n        add al,5\n        mov bx,1\n        mov cl,al\n        shl bx,cl\n        mov word[vesa2_rtrcl],bx\n        xor bx,0FFFFh\n        mov word[vesa2_rtrcla],bx\n\n        ; Process Green Stuff\n        mov al,[BitPosG]\n        mov cl,al\n        mov bx,1\n        shl bx,cl\n        cmp byte[BitSizeG],6\n        jne .no6bitb\n        mov [vesa2_usbit],bx\n        inc al\n.no6bitb\n        or [vesa2_clbit],bx\n        mov [vesa2_gpos],al\n        dec al\n        mov cl,al\n        mov bx,001Fh\n        cmp cl,0FFh\n        je .shrg\n        shl bx,cl\n        jmp .shlg\n.shrg\n        shr bx,1\n.shlg\n        mov word[vesa2_gfull],bx\n        add al,5\n        mov bx,1\n        mov cl,al\n        shl bx,cl\n        mov word[vesa2_gtrcl],bx\n        xor bx,0FFFFh\n        mov word[vesa2_gtrcla],bx\n\n        ; Process Blue Stuff\n        mov al,[BitPosB]\n        mov cl,al\n        mov bx,1\n        shl bx,cl\n        cmp byte[BitSizeB],6\n        jne .no6bitc\n        mov [vesa2_usbit],bx\n        inc al\n.no6bitc\n        or [vesa2_clbit],bx\n        mov [vesa2_bpos],al\n        dec al\n        mov cl,al\n        mov bx,001Fh\n        cmp cl,0FFh\n        je .shrb\n        shl bx,cl\n        jmp .shlb\n.shrb\n        shr bx,1\n.shlb\n        mov word[vesa2_bfull],bx\n        add al,5\n        mov bx,1\n        mov cl,al\n        shl bx,cl\n        mov word[vesa2_btrcl],bx\n        xor bx,0FFFFh\n        mov word[vesa2_btrcla],bx\n\n        xor word[vesa2_clbit],0FFFFh\n        call genfulladdtab\n        cmp byte[converta],1\n         je .red10\n         mov eax,565\n         jmp .red11\n         .red10\n         mov eax,555\n         .red11\n         push eax\n         call Init_2xSaIMMXW\n         pop eax\n\n        ret\n\n\nNEWSYM SetInputDevice\n    ; eax = pointer to devices, bl = device #, bh = player # (0-4)\n    ; Sets keys according to input device selected\n    cmp bl,0\n    jne near .nozero\n    mov dword[eax],0\n    mov dword[eax+4],0\n    mov dword[eax+8],0\n    mov dword[eax+12],0\n    mov dword[eax+16],0\n    mov dword[eax+20],0\n    mov dword[eax+24],0\n    mov dword[eax+28],0\n    mov dword[eax+32],0\n    mov dword[eax+36],0\n    mov dword[eax+40],0\n    mov dword[eax+44],0\n    ret\n.nozero\n    cmp bh,1\n    je near .input2\n    mov dword[eax],54\n    mov dword[eax+4],28\n%ifdef __LINUX__\n    mov dword[eax+8],90\n    mov dword[eax+12],96\n    mov dword[eax+16],92\n    mov dword[eax+20],94\n%else\n    mov dword[eax+8],200\n    mov dword[eax+12],208\n    mov dword[eax+16],203\n    mov dword[eax+20],205\n%endif\n    mov dword[eax+24],31\n    mov dword[eax+28],45\n    mov dword[eax+32],32\n    mov dword[eax+36],30\n    mov dword[eax+40],44\n    mov dword[eax+44],46\n    ret\n.input2\n    mov dword[eax],56\n    mov dword[eax+4],29\n    mov dword[eax+8],37\n    mov dword[eax+12],50\n    mov dword[eax+16],49\n    mov dword[eax+20],51\n    mov dword[eax+24],31\n    mov dword[eax+28],32\n    mov dword[eax+32],33\n    mov dword[eax+36],44\n    mov dword[eax+40],45\n    mov dword[eax+44],46\n    ret\n\n; ****************************\n; TCP/IP Stuff\n; ****************************\n\n; TCPIPPortNum\nNEWSYM TCPIPStatus, db 0\nNEWSYM PacketSendSize, dd 0\nNEWSYM PacketRecvSize, dd 0\nNEWSYM PacketRecvPtr,  dd 0\nNEWSYM PacketSendArray, times 2048+256 db 0\nNEWSYM PacketRecvArray, times 2048+256 db 0\nNEWSYM IPAddrStr, times 20 db 0\nNEWSYM RemoteDisconnect, db 0\n\nNEWSYM TCPIPStartServer\n    mov byte[RemoteDisconnect],0\n    pushad\n    mov dword[PacketSendSize],0\n    mov dword[PacketRecvSize],0\n    call InitTCP\n    or eax,eax\n    jnz .failed\n    mov byte[TCPIPStatus],1\n;    StartServer(unsigned short port)\n    xor eax,eax\n    mov ax,[TCPIPPortNum]\n    push eax\n    call StartServerCycle\n    add esp,4\n    or eax,eax\n    jnz .failed\n    mov byte[TCPIPStatus],2\n    popad\n    xor eax,eax\n    ret\n.failed\n    popad\n    mov eax,-1\n    ret\n\nNEWSYM TCPIPWaitForConnection\n    mov byte[RemoteDisconnect],0\n    pushad\n    call ServerCheckNewClient\n    mov [.temp],eax\n    cmp eax,1\n    jne .notwaiting\n    call acceptzuser\n    or eax,eax\n    jnz .failed\n.notwaiting\n    popad\n    mov eax,[.temp]\n    ret\n.failed\n    popad\n    mov eax,-1\n    ret\n.temp dd 0\n\nNEWSYM TCPIPInitConnectToServer\n    pushad\n    mov dword[PacketSendSize],0\n    mov dword[PacketRecvSize],0\n    call InitTCP\n    or eax,eax\n    jnz .failed\n    mov byte[TCPIPStatus],1\n    ; Convert TCPIPAddress to IPAddrStr\n    mov ebx,TCPIPAddress\n    mov edx,IPAddrStr\n.notend\n    mov al,[ebx]\n    cmp al,' '\n    je .dontinclude\n    mov [edx],al\n    inc edx\n.dontinclude\n    inc ebx\n    cmp al,0\n    jne .notend\n    popad\n    xor eax,eax\n    ret\n.failed\n    popad\n    mov eax,1\n    ret\n\nNEWSYM TCPIPConnectToServer\n; int ConnectServer(char *servername, unsigned short port)\n    pushad\n    xor eax,eax\n    mov ax,[TCPIPPortNum]\n    push eax\n    mov eax,IPAddrStr\n    push eax\n    xor eax,eax\n    call ConnectServer\n    add esp,8\n    or eax,eax\n    jnz .noclient\n    mov byte[TCPIPStatus],3\n    popad\n    xor eax,eax\n    ret\n.noclient\n    mov [.temp],eax\n    popad\n    mov eax,[.temp]\n    ret\n.temp dd 0\n\nNEWSYM TCPIPConnectToServerW\n; int ConnectServer(char *servername, unsigned short port)\n    pushad\n    xor eax,eax\n    call WaitForServer\n    or eax,eax\n    jnz .foundclient\n    mov byte[TCPIPStatus],3\n    popad\n    xor eax,eax\n    ret\n.foundclient\n    mov [.temp],eax\n    popad\n    mov eax,[.temp]\n    ret\n.temp dd 0\n\nNEWSYM TCPIPStoreByte\n    ; Store al into the array\n;    cmp dword[PacketSendSize],2048\n;    je .packeterror\n    push ebx\n    mov ebx,[PacketSendSize]\n    mov [PacketSendArray+ebx],al\n    pop ebx\n    inc dword[PacketSendSize]\n    ret\n.packeterror\n    mov byte[RemoteDisconnect],1\n    ret\n\nNEWSYM TCPIPGetByte\n    ; dh = 0 : No bytes in buffer\n    ; dl = resulting character\n    cmp dword[PacketRecvSize],0\n    jne .bytereceived\n    mov dword[PacketRecvPtr],0\n    call TCPIPRecvPacket\n    cmp dword[PacketRecvSize],0\n    jne .bytereceived\n    xor dh,dh\n    ret\n.bytereceived\n    push eax\n    mov eax,[PacketRecvPtr]\n    mov dl,[PacketRecvArray+eax]\n    mov dh,1\n    inc dword[PacketRecvPtr]\n    mov eax,[PacketRecvPtr]\n    cmp [PacketRecvSize],eax\n    jne .notequal\n    mov dword[PacketRecvSize],0\n.notequal\n    pop eax\n    ret\n\nNEWSYM TCPIPSendPacket\n    cmp dword[PacketSendSize],0\n    je .nopacket\n    pushad\n    ; Send PacketSendArray with size of PacketSendSize\n    ; SendData(int dsize,char *dptr)\n    mov eax,PacketSendArray\n    push eax\n    mov eax,[PacketSendSize]\n    push eax\n    call SendData\n    or eax,eax\n    jnz .failed\n    add esp,8\n    popad\n.nopacket\n    ret\n.failed\n    add esp,8\n    popad\n    call TCPIPDisconnect\n    mov byte[RemoteDisconnect],1\n    ret\n\nNEWSYM TCPIPSendPacketUDP\n    cmp dword[PacketSendSize],0\n    je .nopacket\n    pushad\n    ; Send PacketSendArray with size of PacketSendSize\n    ; SendData(int dsize,char *dptr)\n    mov eax,PacketSendArray\n    push eax\n    mov eax,[PacketSendSize]\n    push eax\n    call SendDataUDP\n    or eax,eax\n    jnz .failed\n    add esp,8\n    popad\n.nopacket\n    ret\n.failed\n    add esp,8\n    popad\n    call TCPIPDisconnect\n    mov byte[RemoteDisconnect],1\n    ret\n\nNEWSYM TCPIPRecvPacket\n    pushad\n    ; Store packet to PacketRecvArray, size at PacketRecvSize\n    ; int GetData(int dsize,char *dptr)\n    mov eax,PacketRecvArray\n    push eax\n    mov eax,2048\n    push eax\n    call GetData\n    cmp eax,-1\n    je .failed\n    mov [PacketRecvSize],eax\n    add esp,8\n    popad\n    ret\n.failed\n    add esp,8\n    popad\n    call TCPIPDisconnect\n    mov byte[RemoteDisconnect],1\n    ret\n\nNEWSYM TCPIPDisconnect\n    call DeInitTCP\n    cmp byte[TCPIPStatus],2\n    jne .notserver\n    call StopServer\n.notserver\n    cmp byte[TCPIPStatus],3\n    jne .notclient\n    call Disconnect\n.notclient\n    mov byte[TCPIPStatus],0\n    ret\n\nNEWSYM TCPIPPreparePacket\n    mov dword[PacketSendSize],0\n    ret\n\nNEWSYM ClearUDPStuff\n    pushad\n    call UDPClearVars\n    popad\n    ret\n\nNEWSYM Wait1SecWin\n    pushad\n    call UDPWait1Sec\n    popad\n    ret\n\nNEWSYM EnableSUDPPacket\n    pushad\n    call UDPEnableMode\n    popad\n    ret\n\nNEWSYM DisableSUDPPacket\n    pushad\n    call UDPDisableMode\n    popad\n    ret\n\nNEWSYM WinErrorA\n    call WinErrorA2\n    ret\nNEWSYM WinErrorB\n    call WinErrorB2\n    ret\nNEWSYM WinErrorC\n    call WinErrorC2\n    ret\n\n; Not supported in Linux\nNEWSYM GotoHomepage\n    ret\n\nEXTSYM SystemTimewHour\nEXTSYM SystemTimewMinute\nEXTSYM SystemTimewSecond\n    \nNEWSYM GetTimeInSeconds\n    call GetLocalTime\n    movzx eax,word[SystemTimewHour]\n    mov ebx,60\n    mul ebx\n    movzx ebx,word[SystemTimewMinute]\n    add eax,ebx\n    mov ebx,60\n    mul ebx\n    movzx ebx,word[SystemTimewSecond]\n    add eax,ebx\n    ret\n\nNEWSYM WinIntRFAsmEnd\n",
+			"file": "src/linux/sdlintrf.asm",
+			"file_size": 38774,
+			"file_write_time": 1417689950000000,
+			"settings":
+			{
+				"buffer_size": 38787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mac_scancodes.txt",
+			"settings":
+			{
+				"buffer_size": 7850,
+				"line_ending": "Unix",
+				"name": "scancode = 0x0035"
+			}
+		},
+		{
+			"file": "src/video/procvid.asm",
+			"settings":
+			{
+				"buffer_size": 73040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/gui/menu.asm",
+			"settings":
+			{
+				"buffer_size": 32339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/gui/guikeys.inc",
+			"settings":
+			{
+				"buffer_size": 56844,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "key_notes.txt",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Unix",
+				"name": "5 (0x35) (0011 0101) -> TAB (0x09) (0000 1001)"
+			}
+		},
+		{
+			"file": "/usr/local/include/SDL/SDL.h",
+			"settings":
+			{
+				"buffer_size": 3233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/usr/local/include/SDL/SDL_keysym.h",
+			"settings":
+			{
+				"buffer_size": 7492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ui.asm",
+			"settings":
+			{
+				"buffer_size": 38257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Makefile",
+			"settings":
+			{
+				"buffer_size": 8285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ChangesBAZZ.txt",
+			"settings":
+			{
+				"buffer_size": 3789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/configure",
+			"settings":
+			{
+				"buffer_size": 78448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bazz/Desktop/porting_zsnes/SDL-1.2.15/src/video/maccommon/SDL_mackeys.h",
+			"settings":
+			{
+				"buffer_size": 3654,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/pic_compile.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bazz/Desktop/porting_zsnes/zsnes-1.36/src/dos/dosintrf.asm",
+		"/Users/bazz/Desktop/porting_zsnes/zsnes-1.36/src/video/procvid.asm",
+		"/Users/bazz/Downloads/zsnes-1.36/src/linux/ChangesBAZZ",
+		"/Users/bazz/Desktop/trip_planning/thurs/notes.txt",
+		"/Users/bazz/Desktop/iamsoinlove.txt",
+		"/Users/bazz/Dropbox/Hacking/Solaris.Sparc/heap_analysis/www.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/su/su.dfl",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/nfs/nfs3_vfsops.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/fifofs/fifosubr.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/doorfs/door_vnops.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/cachefs/cachefs_vfsops.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/cachefs/cachefs_module.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/sys/pctypes.h",
+		"/mnt/life/home/bazz/namefs/expose.c",
+		"/Users/bazz/Desktop/doors.sublime-project",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/sys/mutex.h",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/sun/sys/pr_impl_util.h",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/last/last.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/w/w.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/tty/tty.c",
+		"/Users/bazz/Desktop/Solaris_2.8/+160",
+		"/Users/bazz/Desktop/Solaris_2.8/+364",
+		"/Users/bazz/Desktop/Solaris_2.8/+128",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/syscall/mount.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/realmode/dos/inc/common/sys/vnode.h",
+		"/Users/bazz/Desktop/Solaris_2.8/+106",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/ucbhead/sys/vfs.h",
+		"/Users/bazz/Desktop/Solaris_2.8/+169",
+		"/Users/bazz/Desktop/Solaris_2.8/+151",
+		"/Users/bazz/Desktop/Solaris_2.8/+111",
+		"/Users/bazz/Desktop/Solaris_2.8/+72",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/sun4d/ml/genassym.c",
+		"/Users/bazz/Desktop/Solaris_2.8/+1018",
+		"/Users/bazz/Desktop/Solaris_2.8/+62",
+		"/Users/bazz/Desktop/Solaris_2.8/+756",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/syscall/sysfs.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/doorfs/door_sys.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/sys/door_data.h",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/sys/door.h",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/intel/ia32/os/syscall.c",
+		"/Users/bazz/Desktop/Solaris_2.8/+125",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/fs.d/autofs/mount.c",
+		"/Users/bazz/Desktop/Solaris_2.8/+421",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/fs.d/cachefs/mount/mount.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/sparc/syscall/getcontext.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/sparc/syscall/lwp_private.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/lib/libc/sparcv9/sys/mount.s",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/fs/mntfs/mntvfsops.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/uts/common/syscall/symlink.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/ucbcmd/ps/ps.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/whodo/whodo.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/utmp_update/utmp_update.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/xargs/xargs.c",
+		"/Users/bazz/hack_apply/logs/date.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/write/write.c",
+		"/Users/bazz/hack_apply/fakestackframe/passwd.c",
+		"/Users/bazz/hack_apply/fakestackframe/pty_execve_exploit_blade60.c",
+		"/Users/bazz/hack_apply/fakestackframe/pty_execve_exploit_blade60_archived.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/cmd-inet/usr.bin/rcp.c",
+		"/Users/bazz/Desktop/Solaris_2.8/osnet_volume/usr/src/cmd/cron/crontab.c",
+		"/mnt/life/home/bazz/latest/apply-1.2-libc/apply.c",
+		"/Users/bazz/Reusable Code/args.c",
+		"/Users/bazz/Dropbox/Hacking/Solaris.Sparc/trap_analysis/auto_exploit/auto.c",
+		"/private/var/folders/_g/8ck0kqk51z38kgfh807mc1cc0000gn/T/fz3temp-1/note_to_admin.txt",
+		"/Users/bazz/Hacking/cmdline_apps/bigmomma",
+		"/Users/bazz/Hacking/cmdline_apps/hacking/loader.c",
+		"/Users/bazz/.vimrc",
+		"/mnt/Blade72/nobackup/blade71/bazz/public_html/learn/school/carduino/home.php",
+		"/mnt/Blade72/nobackup/blade74_sd0g/bazz/tmp/xor_test.S",
+		"/Users/bazz/Dropbox/sparc_yotube_post.txt",
+		"/mnt/Blade72/nobackup/blade74_sd0g/bazz/tmp/notes.txt",
+		"/mnt/Blade72/nobackup/blade74_sd0g/bazz/tmp/a.c",
+		"/mnt/Blade72/nobackup/blade74_sd0g/bazz/tmp/alternating_payload2.c",
+		"/Users/bazz/Dropbox/Hacking/phrack/dl.sh",
+		"/Users/bazz/.ssh/config",
+		"/Users/bazz/.work",
+		"/private/tmp/growl_final_test/Release/rakefile",
+		"/Users/bazz/growl/Release/Plugins/System/GrowlAction/xcconfig/Common.xcconfig",
+		"/Users/bazz/growl/Plugins/System/GrowlAction/xcconfig/Common.xcconfig",
+		"/Users/bazz/growl/patch.sh",
+		"/Users/bazz/Dropbox/bash_scripts/cs444",
+		"/etc/hosts",
+		"/Users/bazz/Desktop/tmp/cs444_priv/os02/.bashrc",
+		"/Users/bazz/Desktop/cs444_priv/plans",
+		"/Users/bazz/.ssh/known_hosts",
+		"/Users/bazz/.profile",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/todolog.txt",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/include/UDPServer.h",
+		"/Users/bazz/Music/Together/Ep8/DL.sh",
+		"/Users/bazz/Music/Together/DL.sh",
+		"/Users/bazz/Desktop/enet_example/client.c",
+		"/Users/bazz/Desktop/enet_example/config.h",
+		"/Users/bazz/Desktop/enet_example/server.c",
+		"/Users/bazz/Desktop/enet/client.c",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/include/Sockets/ReliableServerSocket.h",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/carduino-server",
+		"/Users/bazz/Music/Together/Ep7/DL.sh",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/tmp/struct_inside_class.cpp",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/tmp/compile.sh",
+		"/Users/bazz/Desktop/wp_blog_umb/asio_async_timers.txt",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/todo.txt",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/include/XMLStringWriter.hpp",
+		"/Users/bazz/Music/Together/hits.txt",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/tmp/thread_skeleton.cpp",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/tmp/timeout.cpp",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/tmp/timeout_class.cpp",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/tmp/derp.cpp",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/compile.sh",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/rtt/rtt.c",
+		"/Users/bazz/Desktop/carduino/v2/P2P hand-shaking.html",
+		"/Users/bazz/Desktop/carduino/v2/TCPvsUDP.txt",
+		"/Users/bazz/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/bazz/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bazz/Desktop/kamailio.conf",
+		"/Users/bazz/Downloads/pjproject-2.2.1/pjmedia/src/pjmedia/ffmpeg_util.h",
+		"/Users/bazz/Downloads/pjproject-2.2.1/pjmedia/src/pjmedia/ffmpeg_util.c",
+		"/Users/bazz/Music/Together/truelove_insomnia.txt",
+		"/Users/bazz/Library/Application Support/Sublime Text 2/Packages/User/MacTerminal.sublime-settings",
+		"/Users/bazz/Desktop/carduino/server_resources/server2.0/troff_pic/order-of-operation.pic",
+		"/Users/bazz/bin/pic_compile",
+		"/Users/bazz/Dropbox/Together/hits.txt",
+		"/Users/bazz/Dropbox/carduino/server2.0/tmp/derp.cpp",
+		"/Users/bazz/Dropbox/carduino/server2.0/tmp/timeout.cpp",
+		"/Users/bazz/Dropbox/carduino/server2.0/src/Sockets/ClientSocket.cpp",
+		"/private/tmp/derp.cpp",
+		"/private/tmp/install.sh",
+		"/Users/bazz/Dropbox/carduino/server2.0/rtt/dg_echo.c",
+		"/Users/bazz/Dropbox/carduino/server2.0/rtt/dg_send_recv.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1.36",
+			"0x29",
+			"Code Alignment",
+			"GUIGUIAboutText6e",
+			"BAZZ'S",
+			"Alignment",
+			"LINUX VERSION",
+			"%else",
+			"DEBUG",
+			"ifdef DEBUG",
+			"ifdef __DEBUG",
+			"Code Alignment",
+			"3Bh",
+			"guipresstestb",
+			"AllKeys",
+			"scancodelisting",
+			"scancode",
+			"0x7a",
+			"7ah",
+			"0x0a",
+			"NEWSYM pressed",
+			"pressed",
+			"scancodelist",
+			"scancode",
+			"1bh",
+			"0x0d",
+			"0x1b",
+			"scancode",
+			"pressed",
+			"presses",
+			"27",
+			"bazz",
+			"28",
+			"save16b2",
+			"notesc",
+			"eax,pressed",
+			"testpressed8b",
+			"saveselect",
+			"Get_Key",
+			"key",
+			"showvideo",
+			"testpressed8b",
+			"stringa",
+			"Please Select",
+			"bazz",
+			"Main_Proc",
+			"key",
+			"NEWSYM Get_Key",
+			"NEW_SYM Get_Key",
+			"guipresstestb",
+			"Get_Key",
+			"GUIlastkey",
+			"GUIfirstkey",
+			"pl1upk",
+			"GUIqcheckkeys2",
+			"pl1upk",
+			"ScanCodeListing",
+			"27",
+			"guicpressptr",
+			"outofmemory",
+			"Code Alignment",
+			"SDLK",
+			"dl",
+			"GUIKEYS",
+			"keyboard",
+			"DGOptnsDrawBox2",
+			"GUIInputDispKey",
+			"pl5selk",
+			"Check_Key",
+			"guipresstestb",
+			"guipresstext4b",
+			"WaitForKey",
+			"Get_Key",
+			"guipresstext1",
+			"Enter the key",
+			"Enter the key or button",
+			"notcskeys",
+			"76",
+			"Get_Key",
+			"Check",
+			"WaitForKey",
+			"esc",
+			"escape",
+			"KeyBuffer",
+			"Main_Proc",
+			"UpdateVFrame",
+			"JoyRead",
+			"derp",
+			"printf",
+			"NumVideoModes",
+			"derp",
+			"Wait",
+			"Wait_key",
+			"directory",
+			"enter",
+			"space",
+			"press space",
+			"First time",
+			"\"",
+			"printf",
+			"Get_Key",
+			"Check_Key",
+			"GUIgetcurrentinput",
+			"key",
+			"GetKey",
+			"getchar",
+			"waitforkey",
+			"ifndef __LINUX",
+			"WaitForKey",
+			"Get_Key",
+			"Video Mode Changed",
+			"SRAMDir",
+			"[256]",
+			"[",
+			"[256]",
+			"GetFilename",
+			"Code Alignment",
+			".pressedokay",
+			"Check_Key",
+			".again",
+			"guiftimemsg1",
+			"One time user",
+			"WaitForKey",
+			"SRAMDir",
+			"obtaindir",
+			"g++",
+			"getcmdline",
+			"bsd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_DSPMem",
+			"_BSEnable",
+			"logtime_str",
+			"<a href=$1 target=\"_blank\">$0</a>",
+			"<a href=$1>$0</a>",
+			"\"//'",
+			"ed\\ ",
+			"C\\ ",
+			"\\C ",
+			"\\ G",
+			"\\\"//\"",
+			"r\\\"",
+			"\\\"-",
+			"\"$1\"",
+			"\"$0\"",
+			"prepend '$0'",
+			"'$0'",
+			"IPFILE",
+			"ReliablePacket",
+			"MainSock",
+			"UmbrellaSerial.h",
+			"name.c_str()",
+			"on_deadline",
+			"ResettableTimer",
+			"cerr",
+			"time_base",
+			"get_ts",
+			"boost::bind",
+			"XMLstr",
+			"recv_rtthdr",
+			"send_rtthdr",
+			"-",
+			"s_doc",
+			"user",
+			"./pjsua-x86_64-apple-darwin13.3.0 --stun-srv=stun.ekiga.net --id=sip:bazz@redwolf.stark-network.fr --registrar=sip:redwolf.stark-network.fr:25521 --realm=redwolf.stark-network.fr --username=bazz --password=bazz",
+			"user",
+			"./pjsua-x86_64-apple-darwin13.3.0 --stun-srv=stun.ekiga.net --id=sip:bazz@redwolf.stark-network.fr --registrar=sip:redwolf.stark-network.fr:25521 --realm=redwolf.stark-network.fr --username=bazz --password=bazz",
+			"C3",
+			"## Controller/Server sends drive commands ##\nBackwardsTextArrow(S3.s, C1.n, 'd')\n	## illustrate constant sending of msgs ##\n			y=-.05\n			BackwardsTextArrow(S3.s + (0,y), C1.n + (0, y-.03), )\n			y = y - .05\n			BackwardsTextArrow(S3.s + (0,y), C1.n + (-0, y-.03))\n	##",
+			"S3",
+			"## Controller/Server sends drive commands ##\nBackwardsTextArrow(S3.s, C1.n, 'd')\n	## illustrate constant sending of msgs ##\n			y=-.05\n			BackwardsTextArrow(S1.s + (0,y), C1.n + (0, y-.03), )\n			y = y - .05\n			BackwardsTextArrow(S1.s + (0,y), C1.n + (-0, y-.03))",
+			"UmbrellaSerial",
+			"cSerialUmbrella",
+			"cCarduino",
+			"null_terminate()",
+			"xml_packet_template",
+			"size_t",
+			"uint16_t",
+			"buflen[src].data.get()",
+			"buflen.data.get()",
+			"HandshakePacket",
+			"handshake_packet",
+			"options",
+			"udp",
+			"ip",
+			"SOLID",
+			"HALFMASSIVE",
+			"PASSIVE",
+			"NOCOLLISION",
+			"UNTOUCHABLE",
+			"TRANSPARENT",
+			"SOLID",
+			"wget http://www.smrpglegacy.com/$0",
+			"http://www.smrpglegacy.com/$0",
+			"http://www.smrpglegacy.com/$1",
+			"currentUsedCarNum"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "srcinfo.txt",
+					"settings":
+					{
+						"buffer_size": 6072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2249,
+								2242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 717.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/gui/guiwindp.inc",
+					"settings":
+					{
+						"buffer_size": 168642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140664,
+								140664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 86992.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/gui/guimisc.inc",
+					"settings":
+					{
+						"buffer_size": 10900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5740,
+								5753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3640.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/gui/guimouse.inc",
+					"settings":
+					{
+						"buffer_size": 73665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40662,
+								40662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 33066.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/cpu/execute.asm",
+					"settings":
+					{
+						"buffer_size": 93141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60191,
+								60191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 47450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/gui/gui.asm",
+					"settings":
+					{
+						"buffer_size": 124538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40640,
+								40640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 28546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "untitled.sublime-workspace",
+					"settings":
+					{
+						"buffer_size": 27724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13987,
+								13987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9794.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/win/winintrf.asm",
+					"settings":
+					{
+						"buffer_size": 45090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18375,
+								18375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15286.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/linux/sdllink.c",
+					"settings":
+					{
+						"buffer_size": 29351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3056,
+								3056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 956.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/bazz/Desktop/porting_zsnes/SDL-1.2.15/src/video/maccommon/SDL_macevents.c",
+					"settings":
+					{
+						"buffer_size": 20544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12180,
+								12185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7734.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/macros.mac",
+					"settings":
+					{
+						"buffer_size": 2800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 20.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/linux/sdlintrf.asm",
+					"settings":
+					{
+						"buffer_size": 38787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24240,
+								24240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17341.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "mac_scancodes.txt",
+					"settings":
+					{
+						"buffer_size": 7850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								6377
+							]
+						],
+						"settings":
+						{
+							"auto_name": "scancode = 0x0035",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2212.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/video/procvid.asm",
+					"settings":
+					{
+						"buffer_size": 73040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36479,
+								36479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 29238.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/gui/menu.asm",
+					"settings":
+					{
+						"buffer_size": 32339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23708,
+								23708
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18040.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/gui/guikeys.inc",
+					"settings":
+					{
+						"buffer_size": 56844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7841,
+								7841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5987.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "key_notes.txt",
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"auto_name": "5 (0x35) (0011 0101) -> TAB (0x09) (0000 1001)",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/usr/local/include/SDL/SDL.h",
+					"settings":
+					{
+						"buffer_size": 3233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/usr/local/include/SDL/SDL_keysym.h",
+					"settings":
+					{
+						"buffer_size": 7492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4799.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/ui.asm",
+					"settings":
+					{
+						"buffer_size": 38257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2788,
+								2788
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1474.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "src/Makefile",
+					"settings":
+					{
+						"buffer_size": 8285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2790,
+								2801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 919.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "ChangesBAZZ.txt",
+					"settings":
+					{
+						"buffer_size": 3789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2663,
+								2714
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1070.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "src/configure",
+					"settings":
+					{
+						"buffer_size": 78448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 23,
+					"file": "/Users/bazz/Desktop/porting_zsnes/SDL-1.2.15/src/video/maccommon/SDL_mackeys.h",
+					"settings":
+					{
+						"buffer_size": 3654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2770,
+								2790
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1638.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.702311789773,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,115 @@
+Requirements (For Developer)
+----------------------------
+Need 32-bit libraries
+
+ZLIB:
+http://www.zlib.net/
+to compile zlib, I did the following (probably overkill): 
+-- 
+export CC="/usr/bin/gcc -arch i386" 
+export CXX="/usr/bin/g++ -arch i386" 
+export GCOV="/usr/bin/gcov -arch i386" 
+export CPPFLAGS="-arch i386" 
+export CFLAGS="-arch i386" 
+export CXXFLAGS="-arch i386" 
+export LDFLAGS="-arch i386" 
+./autogen.sh 
+./configure 
+make
+sudo make install
+--
+
+SDL 1.2:
+http://www.libsdl.org/download-1.2.php
+
+to compile sdl 1.2.15 on my Mavericks: patch necessary: 
+@@ -91,7 +91,9 @@ typedef struct SDL_PrivateVideoData {
+     CGDirectDisplayID  display;            /* 0 == main display (only support single display) */
+     const void         *mode;              /* current mode of the display */
+     const void         *save_mode;         /* original mode of the display */
++#if (MAC_OS_X_VERSION_MIN_REQUIRED < 1070)
+     CGDirectPaletteRef palette;            /* palette of an 8-bit display */
++#endif
+     NSOpenGLContext    *gl_context;        /* OpenGL rendering context */
+     NSGraphicsContext  *nsgfx_context;     /* Cocoa graphics context */
+     Uint32             width, height, bpp; /* frequently used data about the display */
+
+I built probably under same context as ZLIB but without ./autogen.sh
+
+Changes to ZSNES (same for the most part if not all in 1.42)
+----------------
+
+zfilew.c
+--------
+had to make fnamest, fnames and GetFilename() be mentioned as arrays (which they are anyways)
+because OSX strcpy does bounds checking and a char is not long enough in its eyes.
+
+had to do the same thing to SRAMDir and obtaindir()
+
+Adding stack alignment code to WaitForKey
+
+gui.asm
+--------
+guifirsttimemsg:
+changed jne .pressedokay to jmp .pressedokay. This is because the keyboard
+reception is awful.. literally cannot press a key that is interpreted as spacebar..
+Luckily the mouse works and some keys too.. I can set my joystick flawlessly..
+I can write a remote IP address too.
+
+ui.asm
+------
+getcmdline: 
+around call to getenv, put stack alignment stuffz, here's an example of "stack align stuffz":
+; bazz start
+    mov ebx, esp        ; remember current esp
+    and esp, 0xFFFFFFF0 ; align to next 16 byte boundary (could be zero offset!)
+    sub esp, 12         ; skip ahead 12 so we can store original esp
+    push ebx            ; store esp (16 bytes aligned again)
+    ; bazz end 
+    call getenv
+    ; bazz start
+    pop ebx             ; get original esp
+    mov esp, ebx        ; restore
+    ; bazz end 
+
+I removed the WaitForKey after the Code Alignment Failure :
+
+
+Configure
+----------
+CFLAGS="-arch i386 -I/opt/local/include -I/usr/local/include/SDL" LDFLAGS="-L/usr/local/lib" ./configure --build=i386-pc-bsd --host=i386-pc-bsd --target=i386-pc-bsd --enable-debug --without-opengl --with-sdl-prefix=/usr/local --disable-sdltest
+
+CFLAGS="-arch i386 -I/opt/local/include -I/usr/local/include/SDL" LDFLAGS="-L/usr/local/lib" ./configure --build=i386-pc-bsd --host=i386-pc-bsd --target=i386-pc-bsd --without-opengl --with-sdl-prefix=/usr/local --disable-sdltest
+
+Makefile
+--------
+to all C files: -mmacosx-version-min=10.5 -mstackrealign -arch i386
+nasm files: 
+use /usr/bin/nasm not /opt/local/nasm.. 
+remove -DELF, change -f elf to -f macho
+
+zsnes target: 
+add the following: -mmacosx-version-min=10.5 -mstackrealign -arch i386 -Wl,-no_pie
+
+for non-debug build, remove in gcc lines: -fschedule-insns2 
+
+for static build: /usr/local/lib/libz.a `/usr/local/bin/sdl-config --static-libs`
+
+Other Mods:
+===========
+
+
+Issues
+------
+Code Alignment Failure at startup.. but zsnes seems to still be working luckily.
+
+
+
+History
+-------
+The initial trouble I ran into was the -DELF and -f elf in nasm.. it led to symbol carnival.. 
+lots of missing symbols prefixed by underscores.. it was a mystery.. I first learned about --prefix _
+option which seemed to help alot but not wholly.. then I got lucky to learn
+that the secret lied inside MAN pages which the macho format I was aware is Apple's.. at first I had
+-DELF and -f macho then I realized that the -DELF was causing the symbol behaviour. Once I removed it I was
+home sweet home. and I'm cutting out bits and pieces of my story cause I'm no patient to tell it in fine detail. 
